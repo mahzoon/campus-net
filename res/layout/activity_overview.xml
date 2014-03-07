@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover" />
+
+    <RelativeLayout
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="25dp"
+            android:text="Welcome"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="startSelectUser"
+            android:text="Existing User"         
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="startCreateUser"
+            android:text="New User"			 
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/layoutButtons"
+        android:layout_below="@+id/textViewWelcome"
+        android:layout_marginBottom="15dp"
+		android:background="@color/gray" >
+
+        <TextView
+            android:id="@+id/textHelp"
+            android:layout_width="match_parent"
+            android:layout_height="701dp"
+            android:padding="5dp"
+            android:text="This app lets you contribute to CampusNet@UNCC.
+\n\n
+CampusNet@UNCC is a way for students to learn about life on campus, and to share their own experiences and knowledge with their peers. Browse other Niners' contributions, suggest new activities for your fellow Niners to perform, and use our Android app to tell us the things you love (or hate!) about life at UNCC. The CampusNet@UNCC display is on level 3 of the Woodward building (outside lab 308)."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+	
+</RelativeLayout>

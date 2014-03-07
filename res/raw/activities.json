@@ -1,0 +1,46 @@
+{
+     "Activities": [
+	     {
+             "id": 0,
+             "name": "Free Observation",
+             "description" : [
+             	""]
+         },
+         {
+             "id": 1,
+             "name": "McMillan Greenhouse",
+             "description" : [
+             	"Visit the McMillan greenhouse to meet Nykie the dinosaur and see the wide array of orchids blooming this winter. While you are there be sure to take pictures of what you see."]
+         },
+         {
+             "id": 2,
+             "name": "Susie Harwood Garden",
+             "description" : [
+             	"Visit the 3-acre Susie Hardwood Garden to experience a wonderful collection of trees, perennials, and winter-interest shrubs. Be sure to take pictures or record videos of the interesting plants you encounter as well as the interesting structure and layout of the garden. This is the best time of year that you can see winter-interest shrubs, trees, and perennials in this botanical garden."]             
+         },
+         {
+             "id": 3,
+             "name": "Van Landingham Glen",
+             "description" : [
+             	"Visit the 7-acre van Landingham Glen to get in touch with over 1,000 native Carolina wildflowers, trees, shrubs, and ferns as you walk through the trails and over the footbridges. While you are there look for the 120-year-old log cabin and take pictures or record videos of any intriguing plants that you see."]
+         },
+		 {
+             "id": 4,
+             "name": "Study Time!",
+             "description" : [
+             	"Using photos or videos, show us your favorite study spots on campus. Do you prefer the library, Student Union, or some other secret spot?"]
+         },
+		 {
+             "id": 5,
+             "name": "Where is the Best Grub?",
+             "description" : [
+             	"Let us know what you think is the best place to get food on campus. Take pictures or videos of the top places to find good, cheap, or even free food."]
+         },
+		 {
+             "id": 6,
+             "name": "Down Time...",
+             "description" : [
+             	"After class has let out and you are all studied out where do you like to hang out? Maybe you like watching movies in the Union or catching a game at one of our sporting events. Whatever it is, let us know by taking pictures or videos of these places."]
+         }
+     ]
+ }

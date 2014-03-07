@@ -1,0 +1,134 @@
+{
+     "Landmarks": [
+	     {
+             "bottom": 1871,
+             "id": 0,
+             "left": 1509,
+             "right": 848,
+             "top": 3564,
+             "name": "Other",
+             "targets" : [""],
+             "description" : [
+             	"",
+             	""]
+         },
+         {
+             "bottom": 1871,
+             "id": 1,
+             "left": 1509,
+             "right": 848,
+             "top": 3564,
+             "name": "1) Van Landingham Glen",
+             "targets" : ["Nature"],
+             "description" : [
+             	"",
+             	""]
+         },
+         {
+             "bottom": 1950,
+             "id": 2,
+             "left": 1524,
+             "right": 840,
+             "top": 3220,
+             "name": "2) Susie Harwood Garden",
+             "targets" : ["Nature"],
+             "description" : [
+             	"",
+             	"",
+             	""]
+         },
+         {
+             "bottom": 1510,
+             "id": 3,
+             "left": 941,
+             "right": 500,
+             "top": 2878,
+             "name": "3) McMillan Greenhouse",
+             "targets" : ["Orchids", "Carnivorous Plants", "Desert Plants", "Dinosaur sculpture", "Diversity of Tropical Plants"],
+             "description" : [
+             	"The McMillan Greenhouse complex consists of eight glasshouse rooms, plus surrounding beds, terraces, and courtyard bog gardens. One of the purposes of the greenhouse is to present unusual, exotic plants from around the world to demonstrate the diversity of the planet’s flora and to show the wild relatives from which many of our cultivated plants have come.",
+             	"The Greenhouse holds fascinations year-round. But certain collections peak seasonally – The greatest diversity orchids are blooming in winter, while the Pitcher Plants and Venus Fly-traps are at their prime in summer. A bed of winter-hardy palms and other hardy “tropicals”, as well as a rock garden, and compact display of perennials and annuals surround the greenhouse building and are especially nice in spring and summer. Visit any time of year to see the primitive plants in the Dinosaur’s Garden, the fascinating forms of desert succulents, the spice and fruit plants of the tropics, and the epiphyte tree in the rainforest room.",
+             	""]
+         },
+         {
+             "bottom": 1205,
+             "id": 4,
+             "left": 877,
+             "right": 600,
+             "top": 2418,
+             "name": "4) Prospector",
+             "targets" : ["Dining"],
+             "description" : ["", "", "", ""]  
+         },
+         {
+             "bottom": 1200,
+             "id": 5,
+             "left": 1142,
+             "right": 900,
+             "top": 2357,
+             "name": "5) Atkins Library",
+			"targets" : ["Library"],
+             "description" : [""]                          
+         },
+         {
+             "bottom": 980,
+             "id": 6,
+             "left": 1378,
+             "right": 1080,
+             "top": 1676,
+             "name": "6) Cone University Center",
+             "targets" : ["dining"],
+             "description" : ["", "", ""]
+         },
+         {
+             "bottom": 895,
+             "id": 7,
+             "left": 1524,
+             "right": 1230,
+             "top": 1442,
+             "name": "7) Student Activity Center (SAC)",
+             "targets" : ["fitness"], 
+             "description" : ["","",""]
+         },
+         {
+             "bottom": 1035,
+             "id": 8,
+             "left": 1757,
+             "right": 1345,
+             "top": 1527,
+             "name": "8) Student Union",
+             "targets" : ["students"],             
+             "description" : ["",""]
+         },
+         {
+             "bottom": 1182,
+             "id": 9,
+             "left": 1860,
+             "right": 1335,
+             "top": 1875,
+             "name": "9) Soccer Field",
+			 "targets" : ["sports field",""],
+             "description" : ["", "", "", "", ""]
+         },
+         {
+             "bottom": 1800,
+             "id": 10,
+             "left": 1711,
+             "right": 985,
+             "top": 2970,
+             "name": "10) Richardson Stadium",
+			 "targets" : ["football",""],             
+             "description" : [ "", "",""]
+         },
+         {
+             "bottom": 1920,
+             "id": 11,
+             "left": 1877,
+             "right": 1041,
+             "top": 3071,
+             "name": "11) Woodward Hall",
+             "targets" : ["tabletop"],    
+             "description" : ["", "", "", ""] 
+         }
+     ]
+ }

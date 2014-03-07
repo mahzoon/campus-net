@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover" />
+
+    <fragment
+        android:id="@+id/toolbar"
+        android:name="net.campus.client.fragments.ToolbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/fragment_toolbar" />
+
+    <!--
+         fragment
+        android:id="@+id/fragmentIdeaButton"
+        android:name="net.campus.client.fragments.IdeaButtonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp" /
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:src="@drawable/icon_activity" />
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageViewAvatar"
+            android:text="Activities"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:orientation="vertical" >
+
+		<!--
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take the ACES Tour"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeTour"/>
+			-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit Orchids Blooming in McMillan Greenhouse"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="invokeActivity1"
+             />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Don't Miss Visiting Susie Harwood Garden in Winter"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="invokeActivity2"
+             />        
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See the Wildflowers in Van Landingham Glen"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeActivity3"/>        
+			
+		<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Time!"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeActivity4"/>      
+		
+		<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where is the best grub?"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeActivity5"/>      
+		
+		<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Down time..."
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeActivity6"/>      
+        
+    </LinearLayout>
+
+</RelativeLayout>
